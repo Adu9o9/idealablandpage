@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDEALab Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="hero">
+
+        <video autoplay muted loop playsinlinec class="back-video">
+            <source src="/vecteezy_turning-on-and-turning-off-a-classic-light-bulb-in-4k_1788332 (2) (1).mp4" type="video/mp4">
+        </video>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    
+                    <img src="https://idealab.mec.ac.in/static/media/idealab.7524a97ccb12597d4ef1.png" alt="Logo" width="43"
+                        height="50">
+                    <span id="hello" class="ms-2">IDEALab</span>
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="navbar-toggler-icon">
+                        <div class="toggler-line"></div>
+                        <div class="toggler-line"></div>
+                        <div class="toggler-line"></div>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#facilities">Facilities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#upcoming-events">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#row2">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button id="sub-btn" class="btn btn-outline-success" type="button" data-bs-toggle="modal" data-bs-target="#signInModal">Book Facility</button>
+                        <img src="https://idealab.mec.ac.in/static/media/logo.f7c5d47095273c6999eb.png" alt="Logo" width="43"
+                            height="50" class="d-inline-block align-text-top">
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="content text-light">
+            <h1>IdeaLab</h1>
+            <p>Where ideas are born</p>
+            <a href="#facilities" class="explore-btn">Explore</a>
+        </div>
+    </div>
+   <!--Facilites Section-->
+<section id="facilities" class="facilities-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Text Column -->
+            <div class="col-lg-6">
+                <h2>About Cognicor AICTE IDEALab</h2>
+                <p>
+                    AICTE in collaboration with COGNICOR established MEC IDEALab in 2022. It offers interactive learning
+                    workshops and training programmes with the goal of fostering creativity and promoting interest in
+                    applications of STEM, multidisciplinary education, and collaboration. It will enable faculty and
+                    students alike to "Engage, Explore, Experience, Express and Excel" by providing all the facilities
+                    required to turn an idea into a prototype and learn technical craft. It stands to assist in the
+                    development of commercially viable products, meet socioeconomic needs, and encourage
+                    entrepreneurship in
+                    the nearby student community.
+                </p>
+            </div>
+            <!-- Image Column -->
+            <div class="col-lg-6">
+                <img src="https://idealab.mec.ac.in/static/media/car.a8be2b7f779b95be4f91.jpg" alt="IDEALab Image"
+                    class="facility-img">
+            </div>
+        </div>
+
+        <!-- Facilities Slider Section -->
+        <h2 class="facilities-heading">Our Facilities</h2>
+        <div class="slider-container">
+            <div class="slider" id="facility-slider">
+                <!-- Facility Cards with Images -->
+                <div class="facility-card">
+                    <img src="/epilog1 (1).png" alt="Epilog Laser Engraver">
+                    <h3>Epilog Laser Engraver</h3>
+                    <p>CO2 laser engraver for laser engraving, cutting, marking, and etching. Various sizes and wattages.</p>
+                </div>
+                <div class="facility-card">
+                    <img src="/2.png" alt="HMT CNC Lathe">
+                    <h3>HMT CNC Lathe</h3>
+                    <p>CNC machine for cutting, sanding, drilling, and more with various tools.</p>
+                </div>
+                <div class="facility-card">
+                    <img src="/3.png" alt="HMT CNC Router Machine">
+                    <h3>HMT CNC Router Machine</h3>
+                    <p>Used for cutting shapes in wood, plastic, MDF, and metals.</p>
+                </div>
+                <div class="facility-card">
+                    <img src="/4.png" alt="PC Workstation">
+                    <h3>PC Workstation</h3>
+                    <p>Desktop with Core i7 processor, 16GB RAM, 1TB SSD, and 3050Ti graphics.</p>
+                </div>
+                <div class="facility-card">
+                    <img src="/5.png" alt="PCB Manufacturing Station">
+                    <h3>PCB Manufacturing Station</h3>
+                    <p>Produces multi-layer PCBs and handles leaded and surface-mounted devices.</p>
+                </div>
+                <div class="facility-card">
+                    <img src="/6.png" alt="Sand Blasting Machine">
+                    <h3>Sand Blasting Machine</h3>
+                    <p>Includes systems to drive sand, abrasive, and metal shot for blasting processes.</p>
+                </div>
+                <div class="facility-card">
+                    <img src="/7.png" alt="Shopbot CNC">
+                    <h3>Shopbot CNC</h3>
+                    <p>Router for cutting wood, plastics, foam, and soft metals using included software.</p>
+                </div>
+                <div class="facility-card">
+                    <img src="/8.png" alt="Snapmaker">
+                    <h3>Snapmaker</h3>
+                    <p>3-in-1 modular machine with 3D printer, laser cutter, and CNC engraver.</p>
+                </div>
+                <div class="facility-card">
+                    <img src="/9.png" alt="SolidWorks Software">
+                    <h3>SolidWorks Software</h3>
+                    <p>Solid modeling CAD application for developing mechatronics systems.</p>
+                </div>
+                <div class="facility-card">
+                    <img src="/10.png" alt="Sublimation Printing Station">
+                    <h3>Sublimation Printing Station</h3>
+                    <p>Transfers images onto various materials using a specific printing process.</p>
+                </div>
+                <div class="facility-card">
+                    <img src="/11.png" alt="Ultimaker 2+">
+                    <h3>Ultimaker 2+</h3>
+                    <p>3D printer with swappable nozzles and adjustable filament pressure.</p>
+                </div>
+                </div>
+
+
+            <!-- Navigation Buttons -->
+            <button class="slider-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="slider-btn next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </div>
+</section>
+
+   <!--Sign in Modal-->
+<div class="modal fade" id="signInModal" tabindex="-1" aria-labelledby="signInModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="signInModalLabel">Sign In</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Sign In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Circular Notification Button -->
+<div id="popup-button" class="floating-button">
+    📢
+</div>
+<!-- Upcoming Events Section -->
+<section id="upcoming-events" class="events-section">
+    <div class="events-container">
+        <h2 class="events-heading">Upcoming Events</h2>
+        <div class="event-card">
+            <h3 class="event-title">Arduino Workshop</h3>
+            <button class="read-more-btn" onclick="openModal()">Read More</button>
+        </div>
+    </div>
+</section>
+<!-- Poster Modal -->
+<div id="poster-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img src="/poster.png" alt="Event Poster">
+    </div>
+</div>
+<div id="whole-foot">
+    <section id="footer" class="d-flex flex-wrap justify-content-between align-items-center p-4">
+
+        <!-- Logo Section -->
+        <div id="logo" class="d-flex align-items-center">
+            <a href="https://mec.ac.in" target="_blank" rel="noreferrer">
+                <img src="	https://idealab.mec.ac.in/static/media/logo.f7c5d47095273c6999eb.png" alt="IDEALab Logo" class="footer-logo">
+            </a>
+            <a href="https://cognicor.com" target="_blank" rel="noreferrer" class="footer-link ms-3">
+                <img src="https://idealab.mec.ac.in/static/media/idealab.7524a97ccb12597d4ef1.png" alt="COGNICOR Logo" class="footer-logo">
+            </a>
+            
+            <a href="https://cognicor.com" target="_blank" rel="noreferrer" class="footer-link ms-3">
+                <img src="https://static.wixstatic.com/media/958eca_821d544f48f24288bd452d7badca64fa~mv2.png/v1/crop/x_0,y_12,w_1968,h_516/fill/w_456,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo-transparent-cognicor-horizontal.png"
+                    alt="COGNICOR Logo" class="footer-logo">
+            </a>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="icons-holder d-flex align-items-center">
+            <div class="icons-title me-3">Follow Us:</div>
+            <div class="icons d-flex">
+                <a href="https://www.linkedin.com/company/cognicor-picte-idealah/about/" class="footer-icon me-2"
+                    target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/idealab_mes" class="footer-icon" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div id="row2" class="contact-info">
+            <h4>Contact Us</h4>
+            <p>
+                Rodel Engineering College<br>
+                Thrikkakara, Kochi<br>
+                Kerala, PIN: 682021<br><br>
+                Contact: <a href="mailto:idealab@mec.ac.in" class="footer-mail">idealab@mec.ac.in</a><br>
+                Phone: <a href="tel:+919605169646" class="footer-mail">9605169646</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer Base -->
+    <div id="base" class="d-flex flex-column align-items-center py-3">
+        <p id="footer-parag">Managed by Institute of Human Resource Development</p>
+        <p id="footer-parag">Established by Government of Kerala</p>
+        <p id="footer-parag">
+            © 2025 |
+            <a class="navtext" href="/credit">Credits</a>
+        </p>
+    </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="/index.js"></script>
+</body>
+</html>
